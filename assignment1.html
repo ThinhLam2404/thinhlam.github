@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assignment1.css">
+    <style>
+        th {
+            border: 1px solid black;
+            border-style: outset;
+        }
+
+        table {
+            border: 1px solid black;
+            border-right: 3px solid black;
+            border-bottom: 3px solid black;
+        }
+
+        ol {
+            text-align: left;
+        }
+
+        h2 {
+            text-align: left;
+        }
+
+        label {
+            text-align: left;
+        }
+
+        tr {
+            text-align: left;
+        }
+
+        div.a {
+            text-align: right;
+        }
+
+        div.b {
+            text-align: left;
+        }
+
+        th.c {
+            border: 0;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <th>
+                <img src="https://www.logomoose.com/wp-content/uploads/2015/11/abc-english1.jpg" alt="logo">
+            </th>
+            <th>
+                <ol>
+                    <h1>ACTIVITY</h1>
+                    <li>Activity 01</li>
+                    <ul style="list-style-type: disc;">
+                        <li>Location: Green Park</li>
+                        <li>Time: 1<sup>st</sup> March</li>
+                        <li>Register via link: English Club's Website</li>
+                    </ul>
+                    <li>Activity 02</li>
+                    <ul style="list-style-type: square;">
+                        <li>Location: Wine Lake</li>
+                        <li>Time: 3<sup>rd</sup> April</li>
+                        <li>Register via link: English Club's Website</li>
+                    </ul>
+                    <li>Activity 03</li>
+                    <ul style="list-style-type: circle;">
+                        <li>Location: Local Park</li>
+                        <li>Time: 7<sup>th</sup> May</li>
+                        <li>Register via link: English Club's Website</li>
+                    </ul>
+                </ol>
+            </th>
+        </tr>
+
+        <tr>
+            <th colspan="2">
+                <h2>
+                    <center><i>You can do it - We can help!</i> </center>
+                </h2>
+            </th>
+        </tr>
+
+
+        <tr>
+            <th colspan="2" class="c">
+                <h2><b>
+                        <center>MEMBER REGISTRATION FORM</center>
+                    </b></h2>
+            </th>
+
+
+        <tr>
+            <th class="c">
+
+                <div class="a">
+                    <label for="email">Email: </label>
+
+                </div>
+                <div class="a">
+                    <label for="fullname">Full name: </label>
+
+                </div>
+                <div class="a">
+                    <label for="gender">Gender: </label>
+
+                </div>
+            </th>
+
+            <th class="c">
+                <div class="b">
+                    <input name="email" id="email" type="email" width="1000px " size="100"
+                        placeholder="Please input your email" /><br>
+                </div>
+                <div class="b">
+                    <input name="fullname" id="fullname" type="text" width="1000px" size="100"
+                        placeholder="Please input your full name" />
+
+                </div>
+                <div class="b">
+                    <input type="radio" id="male" , id="gender" name="Male" , value="0">Male
+                    <input type="radio" id="female" , id="gender" name="Female" , value="1">Female<br>
+
+                </div>
+            </th>
+        </tr>
+
+        <tr>
+            <th class="c">
+                <div class="a">
+                    <label for="Country">Country: </label>
+                </div>
+
+            </th>
+            <th class="c">
+                <div class="b">
+                    <select name="Country" id="Country" multiple>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Thailand">Thailand</option>
+                        <option value="USA">USA</option>
+                        <option value="Australia">Australia</option>
+                    </select>
+                </div>
+
+            </th>
+        </tr>
+
+        <tr>
+            <th class="c">
+                <p>
+                <div class="a">Hobby: </div>
+                </p>
+            </th>
+            <th class="c">
+                <div class="b"> <input type="checkbox" id="travelling" name="travelling">
+                    <label for="travelling"> Travelling</label>
+                    <input type="checkbox" id="Shopping" name="Shopping">
+                    <label for="Shopping">Shopping</label>
+                    <input type="checkbox" id="Reading" name="Reading">
+                    <label for="Reading">Reading</label>
+                </div>
+            </th>
+        </tr>
+
+
+        <tr>
+            <th class="c">
+                <p>
+                <div class="a">Introduction: </div>
+                </p>
+            </th>
+            <th class="c">
+                <div class="b"> <textarea rows="8" cols="100">Please introduce yourself briefly!</textarea></div>
+            </th>
+        </tr>
+        <tr>
+            <th class="c">
+                <p>
+                <div class="a">Upload photo: </div>
+                </p>
+            </th>
+            <th class="c">
+                <div class="b"> <input type="file">
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <th class="c">
+                <div class="a">Password:</div>
+            </th>
+            <th class="c">
+                <div class="b"> <input type="password" id="pwd" name="pwd" minlength="8"
+                        placeholder="Please enter password"></div>
+            </th>
+        </tr>
+        <tr>
+            <th class="c">
+                <div class="a">Re-enter password:</div>
+            </th>
+            <th class="c">
+                <div class="b"> <input type="password" id="pwd" name="pwd" minlength="8"
+                        placeholder="Please re-enter password"></div>
+            </th>
+        </tr>
+        <tr>
+            <th class="c" colspan="2">
+                <center><input type="submit">
+                    <input type="reset">
+                </center>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2" style="height: 100px;">
+                <center>Registered @ with Protected Right!</center>
+            </th>
+        </tr>
+
+    </table>
+
+</body>
+
+
+
+
+
+</html>
